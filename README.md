@@ -1,6 +1,4 @@
 # Bean-There-Rated-that
-# Bean There, Rated That
-
 Welcome to *Bean There, Rated That* – a simple coffee rating log for students who live off caffeine but can’t remember if that last iced mocha was actually good or not. This Python-based project helps you track and rate your favorite (or regrettable) coffee drinks so future you doesn’t suffer through the same bad choices again.
 
 ## Project Description
