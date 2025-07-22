@@ -47,3 +47,17 @@ bean-there-rated-that/
 ├── coffee_log.txt      # Storage file for logs
 ├── README.md           # This file
 └── .gitignore          # Python ignores
+
+## 📋 Sprint 1 Tasks (Solo)
+
+- [x] Define and document project idea
+- [x] Post idea in Teams and mark as “Go”
+- [x] Join ksu-is GitHub organization
+- [x] Create GitHub repo with README, license, and .gitignore
+- [x] Add starter `coffeelog.py`
+- [x] Add empty `coffee_log.txt`
+- [x] Find and clone related GitHub project:
+  - Cloned: [Coffee_log by jamespage6978](https://github.com/jamespage6978/Coffee_log)
+- [x] Test related project locally and document notes
+
+
