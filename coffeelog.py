@@ -7,6 +7,7 @@ def show_menu():
     print("3. Exit")
     print("4. View only high-rated coffees (8–10)")
     print("5. Show total number of coffees logged")
+    print("6. Clear all coffee logs")  # NEW
 
 def log_coffee():
     name = input("Coffee name: ")
@@ -61,7 +62,15 @@ def main():
         else:
             print("Invalid choice. Try again.")
         elif choice == "5":
-            show_count()
+        show_count()
+        elif choice == "6":
+        confirm = input("Are you sure you want to delete all logs? (y/n): ")
+        if confirm.lower() == "y":
+                with open("coffee_log.txt", "w") as file:
+                    file.write("")  # Clears the file
+                print("Coffee log cleared.")
+        else:
+                print("Cancelled. Coffee log not cleared.")
 
 if __name__ == "__main__":
     main()
