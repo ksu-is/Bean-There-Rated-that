@@ -48,7 +48,7 @@ bean-there-rated-that/
 ├── README.md           # This file
 └── .gitignore          # Python ignores
 
-## 📋 Sprint 1 Tasks (Solo)
+## Sprint 1 Tasks (Solo)
 
 - [x] Define and document project idea
 - [x] Post idea in Teams and mark as “Go”
@@ -59,5 +59,15 @@ bean-there-rated-that/
 - [x] Find and clone related GitHub project:
   - Cloned: [Coffee_log by jamespage6978](https://github.com/jamespage6978/Coffee_log)
 - [x] Test related project locally and document notes
+
+## Sprint 2 Features
+- [x] Add timestamp and coffee type
+- [x] Input validation for rating
+- [x] Add menu and CLI improvements
+
+## Sprint 3 Features
+- [x] Filter high-rated coffees (8–10)
+- [x] Show total coffees logged
+- [x] Clear log file with confirmation
 
 
