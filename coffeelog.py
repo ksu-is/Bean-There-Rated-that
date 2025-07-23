@@ -6,6 +6,7 @@ def show_menu():
     print("2. View coffee log")
     print("3. Exit")
     print("4. View only high-rated coffees (8–10)")
+    print("5. Show total number of coffees logged")
 
 def log_coffee():
     name = input("Coffee name: ")
@@ -59,6 +60,16 @@ def main():
             filter_high_rated()  
         else:
             print("Invalid choice. Try again.")
+        elif choice == "5":
+            show_count()
 
 if __name__ == "__main__":
     main()
+
+def show_count():
+    try:
+        with open("coffee_log.txt", "r") as file:
+            lines = file.readlines()
+            print(f"\nTotal coffees logged: {len(lines)}")
+    except FileNotFoundError:
+        print("No coffee log found.")
