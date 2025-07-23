@@ -1,4 +1,4 @@
-# 🛣️ Project Roadmap – Bean There, Rated That
+# Project-Roadmap – Bean There, Rated That
 
 ## Sprint 1 Tasks
 - [x] Define project idea
